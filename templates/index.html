@@ -14,12 +14,7 @@
             <input type="text" id="user_input" name="user_input" required>
             <button type="submit">Submit</button>
         </form>
-
-        <!-- Show the user's query and AI response -->
         <div class="result">
-            <h2>Query:</h2>
-            <p class="user-query">{{ request.form.get('user_input') }}</p>
-
             <h2>Result:</h2>
             <p>{{ result }}</p>
         </div>

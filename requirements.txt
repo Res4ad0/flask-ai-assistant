@@ -1,0 +1,8 @@
+Flask
+transformers
+torch
+deep-translator
+beautifulsoup4
+requests
+
+
